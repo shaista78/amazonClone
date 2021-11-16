@@ -1,0 +1,29 @@
+{
+  "name": "amazonclone",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "1. Introduction to this course    1. what you will build    2. what you will learn    3. who are audiences 2. Install Tools    1. Code Editor    2. Web Browser    3. VS Code Extension 3. Website Template    1. Create amazona folder    2. create template folder    3. create index.html    4. add default HTML code    5. link to style.css    6. create header, main and footer    7. style elements 4. Display Products    1. create products div    2. add product attributes    3. add link, image, name and price",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaista78/amazonClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaista78/amazonClone/issues"
+  },
+  "homepage": "https://github.com/shaista78/amazonClone#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0"
+  }
+}
